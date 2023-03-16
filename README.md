@@ -1,3 +1,12 @@
+# Electiva de Profundización I Creación de APIs
+## Integrantes
+ ## Nombre : Andres David Acosta Sarmiento
+## @AndresAcosta05 git (https://github.com/AndresAcosta05)
+
+## Nombre : Carlos Andres Quintero Rocha
+##  @carls08 git (https://github.com/carls08)
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>

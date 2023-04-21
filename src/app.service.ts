@@ -2,7 +2,13 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  
+  getInicio(): string{
+    return 'Bienvenido a la app';
+  }
+
+  getEdad(edad): string {
+    let fecha = new Date();
+    return 'Saludos usted tiene: ' + (fecha.getFullYear() - edad)
   }
 }

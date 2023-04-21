@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Param } from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller()
@@ -6,7 +6,13 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getHello(): string {
-    return this.appService.getHello();
+  getInicio(): string{
+    return this.appService.getInicio();
+  }
+  
+  @Get(':edad')
+  getEdadActual(@Param('edad') edad: number): string{
+    // convertimos el parametro a tipo numero para poder hacer operaciones ya que del link viene tipo string
+    return this.appService.getEdad(Number(edad));
   }
 }

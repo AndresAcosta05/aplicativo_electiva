@@ -7,10 +7,10 @@ export class AppService {
     return 'Bienvenido a la app de Nest.js, usted se encuentra en la página principal';
   }
 
-  getEdad(edad): string {
-    let fecha = new Date();
-    return 'Saludos usted tiene: ' + (fecha.getFullYear() - edad +  ' años ')
-  }
+  //getEdad(edad): string {
+   // let fecha = new Date();
+    //return 'Saludos usted tiene: ' + (fecha.getFullYear() - edad +  ' años ')
+ // }
  
   getName(): string{
     return 'Mi nombre es Nest'

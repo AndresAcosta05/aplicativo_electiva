@@ -25,10 +25,10 @@ export class AppController {
   return this.appService.getElements(limit, offset);
  }
 
-  @Get(':edad')
-  getEdadActual(@Param('edad') edad: number): string{
+  //@Get(':edad')
+  //getEdadActual(@Param('edad') edad: number): string{
     // convertimos el parametro a tipo numero para poder hacer operaciones ya que del link viene tipo string
-    return this.appService.getEdad(Number(edad));
-  }
+   // return this.appService.getEdad(Number(edad));
+  //}
   
 }
